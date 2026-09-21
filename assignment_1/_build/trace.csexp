@@ -1,0 +1,387 @@
+(6:config4:init19:1789739660566773000(7:version6:3.24.2)(9:build_dir6:_build)(4:argv(4:dune5:build))(3:env(21:COMMAND_MODE=unix200319:HOME=/Users/ahennig15:LOGNAME=ahennig37:MACH_PORT_RENDEZVOUS_PEER_VALDATION=116:MallocNanoZone=017:OSLogRateLimit=641083:PATH=/Users/ahennig/.opam/default/bin:/Users/ahennig/.cabal/bin:/Users/ahennig/.ghcup/bin:/opt/homebrew/opt/ffmpeg@6/bin:/Users/ahennig/.antigravity/antigravity/bin:/Users/ahennig/.local/bin:/Users/ahennig/google-cloud-sdk/bin:/Users/ahennig/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/ahennig/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/usr/local/go/bin:/Users/ahennig/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/ahennig/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Applications/Visual Studio Code.app/Contents/Resources/app/bin14:SHELL=/bin/zsh61:SSH_AUTH_SOCK=/var/run/com.apple.launchd.XSWP3tJuUR/Listeners56:TMPDIR=/var/folders/q4/zjxxsbqd3dzgyhm9xm_cp_v80000gn/T/12:USER=ahennig13:XPC_FLAGS=0x018:XPC_SERVICE_NAME=041:__CFBundleIdentifier=com.microsoft.VSCode38:__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x1319:TERM_PROGRAM=vscode28:TERM_PROGRAM_VERSION=1.137.016:LANG=en_US.UTF-819:COLORTERM=truecolor52:COPILOT_DEBUG_NONCE=989aea02949b1a9ed10470245465edb1102:GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh141:VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)30:VSCODE_GIT_ASKPASS_EXTRA_ARGS=119:VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js97:VSCODE_GIT_IPC_HANDLE=/var/folders/q4/zjxxsbqd3dzgyhm9xm_cp_v80000gn/T/vscode-git-b3ae51bb9e.sock41:DATA_CLOUD_CURR_IDE_NAME=visualstudiocode145:PYTHONSTARTUP=/Users/ahennig/Library/Application Support/Code/User/workspaceStorage/1b9e489f5e69914436b0bdce72b821f4/ms-python.python/pythonrc.py19:PYTHON_BASIC_REPL=118:VSCODE_INJECTION=149:VSCODE_NONCE=34232119-ac20-4e32-b0b5-4fdbe28113cc22:ZDOTDIR=/Users/ahennig27:USER_ZDOTDIR=/Users/ahennig33:PWD=/Users/ahennig/Dev/assignment19:TERM=xterm-256color7:SHLVL=136:OLDPWD=/Users/ahennig/Dev/assignment28:VSCODE_PROFILE_INITIALIZED=129:HOMEBREW_PREFIX=/opt/homebrew36:HOMEBREW_CELLAR=/opt/homebrew/Cellar33:HOMEBREW_REPOSITORY=/opt/homebrew139:FPATH=/opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions34:INFOPATH=/opt/homebrew/share/info:24:GOPATH=/Users/ahennig/go69:JAVA_HOME=/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home32:CRYPTOGRAPHY_OPENSSL_NO_LEGACY=19:P9K_SSH=025:_P9K_SSH_TTY=/dev/ttys00411:EDITOR=nano20:OPAMNOENVNOTICE=true47:OPAM_SWITCH_PREFIX=/Users/ahennig/.opam/default149:CAML_LD_LIBRARY_PATH=/Users/ahennig/.opam/default/lib/stublibs:/Users/ahennig/.opam/default/lib/ocaml/stublibs:/Users/ahennig/.opam/default/lib/ocaml63:OCAMLTOP_INCLUDE_PATH=/Users/ahennig/.opam/default/lib/toplevel61:OCAML_TOPLEVEL_PATH=/Users/ahennig/.opam/default/lib/toplevel34:VSCODE_PYTHON_AUTOACTIVATE_GUARD=183:OPAM_LAST_ENV=/Users/ahennig/.opam/.last-env/env-c839f858919a46d14b05216986bc18e4-011:P9K_TTY=old21:_P9K_TTY=/dev/ttys00439:_=/Users/ahennig/.opam/default/bin/dune))(4:root29:/Users/ahennig/Dev/assignment)(3:pid5:31131)(11:initial_cwd29:/Users/ahennig/Dev/assignment)(5:start19:1789739660554310000))(3:log4:info19:1789739660566850000(7:message10:ocamlparam)(10:OCAMLPARAM5:unset))(6:thread12:spawn_thread19:1789739660566923000(4:name7:console))(3:log4:info19:1789739660566982000(7:message20:Shared cache enabled)(13:cache_enabled25:Enabled_except_user_rules))(3:log4:info19:1789739660567014000(7:message21:Shared cache location)(8:root_dir29:/Users/ahennig/.cache/dune/db))(3:log4:info19:1789739660567035000(7:message14:Workspace root)(4:root29:/Users/ahennig/Dev/assignment))(3:log4:info19:1789739660570217000(7:message25:Auto-detected concurrency)(11:concurrency2:12))(6:thread12:spawn_thread19:1789739660570227000(4:name14:signal-watcher))(5:build11:build-start19:1789739660570270000(6:run_id1:0)(7:restart5:false)(6:rusage((13:user_cpu_time8:13732000)(15:system_cpu_time8:25994000)(6:maxrss8:26558464)(6:minflt4:1797)(6:majflt3:392)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:2)(6:nivcsw2:13))))(3:log4:info19:1789739660570924000(7:message12:Dune context)(7:context((4:name7:default)(4:kind7:default)(7:profile3:Dev)(6:merlin4:true)(14:fdo_target_exe())(9:build_dir(12:In_build_dir7:default))(15:instrument_with()))))(5:rules9:Dune load(19:17897396605709360005:33000)(3:dir1:.))(5:build7:targets19:1789739660571035000(7:aliases(((3:dir1:.)(4:name7:default)(9:recursive5:false)(8:contexts(7:default))))))(7:process5:start19:1789739660571482000(12:process_args(7:-config))(3:pid5:31133)(10:categories())(6:queued4:1000)(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir1:.))(7:process15:signal_received19:1789739660590611000(6:signal4:CHLD))(7:process6:finish(19:17897396605714820008:19148000)(12:process_args(7:-config))(3:pid5:31133)(10:categories())(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir1:.)(4:exit1:0)(6:rusage((13:user_cpu_time7:2126000)(15:system_cpu_time7:6386000)(6:maxrss7:8880128)(6:minflt3:200)(6:majflt3:526)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw3:148))))(6:action10:write-file(19:17897396605926940005:80000)(4:file33:_build/default/.dune/configurator)(4:size4:2255))(6:thread12:spawn_thread19:1789739660592810000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660592834000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660592852000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660592883000(4:name11:thread-pool))(6:action10:write-file(19:17897396605929490005:65000)(4:file36:_build/default/.dune/configurator.v2)(4:size4:2441))(6:thread12:spawn_thread19:1789739660596458000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660596854000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660597685000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660598282000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660598584000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660610316000(4:name11:thread-pool))(6:action10:write-file(19:17897396606184910006:107000)(4:file36:_build/default/.merlin-conf/exe-main)(4:size4:5456))(6:thread12:spawn_thread19:1789739660618637000(4:name11:thread-pool))(7:process5:start19:1789739660618827000(12:process_args(8:-modules5:-impl7:main.ml))(3:pid5:31134)(10:categories())(6:queued4:2000)(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(12:target_files(56:_build/.actions/default/70b82b20395549cee0befeab527788d6)))(7:process15:signal_received19:1789739660626248000(6:signal4:CHLD))(7:process6:finish(19:17897396606188270007:7439000)(12:process_args(8:-modules5:-impl7:main.ml))(3:pid5:31134)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(56:_build/.actions/default/70b82b20395549cee0befeab527788d6))(6:rusage((13:user_cpu_time7:1957000)(15:system_cpu_time7:4717000)(6:maxrss7:9224192)(6:minflt3:545)(6:majflt3:193)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw1:4))))(6:thread12:spawn_thread19:1789739660626634000(4:name11:thread-pool))(7:process5:start19:1789739660626850000(12:process_args(8:-modules5:-impl14:util/assert.ml))(3:pid5:31136)(10:categories())(6:queued4:1000)(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(12:target_files(56:_build/.actions/default/deb32c0f02735bce14e76ed1ba17fe7e)))(7:process5:start19:1789739660627251000(12:process_args(8:-modules5:-impl14:gradedtests.ml))(3:pid5:31137)(10:categories())(6:queued1:0)(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(12:target_files(56:_build/.actions/default/57f6f047d069cbd9a99c96a0c2208dff)))(7:process5:start19:1789739660627518000(12:process_args(8:-modules5:-impl16:providedtests.ml))(3:pid5:31138)(10:categories())(6:queued1:0)(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(12:target_files(56:_build/.actions/default/e92f4bbda18fb9385b153098fd05c7c6)))(7:process15:signal_received19:1789739660632228000(6:signal4:CHLD))(7:process6:finish(19:17897396606275180007:4734000)(12:process_args(8:-modules5:-impl16:providedtests.ml))(3:pid5:31138)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(56:_build/.actions/default/e92f4bbda18fb9385b153098fd05c7c6))(6:rusage((13:user_cpu_time7:1864000)(15:system_cpu_time7:2231000)(6:maxrss7:9125888)(6:minflt3:539)(6:majflt3:193)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw2:10))))(6:thread12:spawn_thread19:1789739660632403000(4:name11:thread-pool))(7:process15:signal_received19:1789739660632592000(6:signal4:CHLD))(7:process5:start19:1789739660632663000(12:process_args(8:-modules5:-impl12:hellocaml.ml))(3:pid5:31139)(10:categories())(6:queued4:1000)(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(12:target_files(56:_build/.actions/default/10a36b91f385941e2dfaf6069a1acea2)))(7:process6:finish(19:17897396606268500007:6101000)(12:process_args(8:-modules5:-impl14:util/assert.ml))(3:pid5:31136)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(56:_build/.actions/default/deb32c0f02735bce14e76ed1ba17fe7e))(6:rusage((13:user_cpu_time7:2331000)(15:system_cpu_time7:2568000)(6:maxrss8:10289152)(6:minflt3:610)(6:majflt3:193)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw2:25))))(6:thread12:spawn_thread19:1789739660633048000(4:name11:thread-pool))(7:process15:signal_received19:1789739660633123000(6:signal4:CHLD))(7:process6:finish(19:17897396606272510007:5902000)(12:process_args(8:-modules5:-impl14:gradedtests.ml))(3:pid5:31137)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(56:_build/.actions/default/57f6f047d069cbd9a99c96a0c2208dff))(6:rusage((13:user_cpu_time7:2667000)(15:system_cpu_time7:2513000)(6:maxrss8:12124160)(6:minflt3:722)(6:majflt3:193)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw2:31))))(6:thread12:spawn_thread19:1789739660633256000(4:name11:thread-pool))(6:action5:start19:1789739660633301000(4:name16:merge_dep_output))(6:action6:finish(19:17897396606333010005:51000)(4:name16:merge_dep_output))(6:thread12:spawn_thread19:1789739660633381000(4:name11:thread-pool))(7:process15:signal_received19:1789739660638704000(6:signal4:CHLD))(7:process6:finish(19:17897396606326630007:6059000)(12:process_args(8:-modules5:-impl12:hellocaml.ml))(3:pid5:31139)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamldep.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(56:_build/.actions/default/10a36b91f385941e2dfaf6069a1acea2))(6:rusage((13:user_cpu_time7:3317000)(15:system_cpu_time7:2012000)(6:maxrss8:12288000)(6:minflt3:731)(6:majflt3:194)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw1:3))))(6:thread12:spawn_thread19:1789739660638831000(4:name11:thread-pool))(6:action5:start19:1789739660638949000(4:name16:merge_dep_output))(6:action6:finish(19:17897396606389490005:48000)(4:name16:merge_dep_output))(6:thread12:spawn_thread19:1789739660639044000(4:name11:thread-pool))(6:action5:start19:1789739660639123000(4:name16:merge_dep_output))(6:action6:finish(19:17897396606391230005:44000)(4:name16:merge_dep_output))(6:thread12:spawn_thread19:1789739660639203000(4:name11:thread-pool))(6:action10:write-file(19:17897396606400360005:57000)(4:file43:_build/default/.main.eobjs/dune__exe.ml-gen)(4:size3:413))(6:thread12:spawn_thread19:1789739660640120000(4:name11:thread-pool))(7:process5:start19:1789739660648975000(12:process_args(13:-nopervasives9:-nostdlib2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs2:-w3:-532:-w3:-492:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte14:-no-alias-deps7:-opaque2:-o30:.main.eobjs/byte/dune__exe.cmo2:-c5:-impl28:.main.eobjs/dune__exe.ml-gen))(3:pid5:31142)(10:categories())(6:queued4:1000)(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(12:target_files(45:_build/default/.main.eobjs/byte/dune__exe.cmi45:_build/default/.main.eobjs/byte/dune__exe.cmo45:_build/default/.main.eobjs/byte/dune__exe.cmt)))(7:process15:signal_received19:1789739660655157000(6:signal4:CHLD))(7:process6:finish(19:17897396606489750007:6199000)(12:process_args(13:-nopervasives9:-nostdlib2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs2:-w3:-532:-w3:-492:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte14:-no-alias-deps7:-opaque2:-o30:.main.eobjs/byte/dune__exe.cmo2:-c5:-impl28:.main.eobjs/dune__exe.ml-gen))(3:pid5:31142)(10:categories())(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(45:_build/default/.main.eobjs/byte/dune__exe.cmi45:_build/default/.main.eobjs/byte/dune__exe.cmo45:_build/default/.main.eobjs/byte/dune__exe.cmt))(6:rusage((13:user_cpu_time7:2208000)(15:system_cpu_time7:2780000)(6:maxrss8:10846208)(6:minflt3:640)(6:majflt3:206)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw1:8))))(6:thread12:spawn_thread19:1789739660655315000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660655380000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660655435000(4:name11:thread-pool))(7:process5:start19:1789739660655648000(12:process_args(13:-nopervasives9:-nostdlib2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs2:-w3:-532:-w3:-492:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native9:-cmi-file30:.main.eobjs/byte/dune__exe.cmi14:-no-alias-deps7:-opaque2:-o32:.main.eobjs/native/dune__exe.cmx2:-c5:-impl28:.main.eobjs/dune__exe.ml-gen))(3:pid5:31143)(10:categories())(6:queued4:1000)(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(12:target_files(47:_build/default/.main.eobjs/native/dune__exe.cmx45:_build/default/.main.eobjs/native/dune__exe.o)))(7:process5:start19:1789739660656124000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o38:.main.eobjs/byte/dune__exe__Assert.cmo2:-c5:-impl14:util/assert.ml))(3:pid5:31144)(10:categories())(6:queued1:0)(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(12:target_files(53:_build/default/.main.eobjs/byte/dune__exe__Assert.cmi53:_build/default/.main.eobjs/byte/dune__exe__Assert.cmo53:_build/default/.main.eobjs/byte/dune__exe__Assert.cmt)))(7:process5:start19:1789739660656512000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o41:.main.eobjs/byte/dune__exe__Hellocaml.cmo2:-c5:-impl12:hellocaml.ml))(3:pid5:31145)(10:categories())(6:queued1:0)(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(12:target_files(56:_build/default/.main.eobjs/byte/dune__exe__Hellocaml.cmi56:_build/default/.main.eobjs/byte/dune__exe__Hellocaml.cmo56:_build/default/.main.eobjs/byte/dune__exe__Hellocaml.cmt)))(7:process15:signal_received19:1789739660677114000(6:signal4:CHLD))(7:process6:finish(19:17897396606565120008:20632000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o41:.main.eobjs/byte/dune__exe__Hellocaml.cmo2:-c5:-impl12:hellocaml.ml))(3:pid5:31145)(10:categories())(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(56:_build/default/.main.eobjs/byte/dune__exe__Hellocaml.cmi56:_build/default/.main.eobjs/byte/dune__exe__Hellocaml.cmo56:_build/default/.main.eobjs/byte/dune__exe__Hellocaml.cmt))(6:stderr7926:[1mFile "hellocaml.ml", line 685, characters 8-22[0m:
+685 | let rec list_to_mylist (l:'a list) : 'a mylist =
+              [1;35m^^^^^^^^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 702, characters 8-14[0m:
+702 | let rec append (l1:'a list) (l2:'a list) : 'a list =
+              [1;35m^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 711, characters 8-11[0m:
+711 | let rec rev (l:'a list) : 'a list =
+              [1;35m^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 724, characters 10-17[0m:
+724 |   let rec rev_aux l acc =
+                [1;35m^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 745, characters 8-14[0m:
+745 | let rec insert (x:'a) (l:'a list) : 'a list =
+              [1;35m^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 756, characters 8-13[0m:
+756 | let rec union (l1:'a list) (l2:'a list) : 'a list =
+              [1;35m^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 847, characters 8-15[0m:
+847 | let rec vars_of (e:exp) : string list =
+              [1;35m^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 866, characters 8-17[0m:
+866 | let rec string_of (e:exp) : string =
+              [1;35m^^^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 927, characters 8-14[0m:
+927 | let rec lookup (x:string) (c:ctxt) : int64 =
+              [1;35m^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 954, characters 8-17[0m:
+954 | let rec interpret (c:ctxt) (e:exp) : int64 =
+              [1;35m^^^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 1000, characters 8-16[0m:
+1000 | let rec optimize (e:exp) : exp =
+               [1;35m^^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 1144, characters 8-15[0m:
+1144 | let rec compile (e:exp) : program =
+               [1;35m^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 107, characters 4-5[0m:
+107 | let z : int =
+          [1;35m^[0m
+[1;35mWarning[0m 32 [unused-value-declaration]: unused value [1mz[0m.
+
+[1mFile "hellocaml.ml", line 117, characters 4-5[0m:
+117 | let z : int =
+          [1;35m^[0m
+[1;35mWarning[0m 32 [unused-value-declaration]: unused value [1mz[0m.
+
+[1mFile "hellocaml.ml", line 388, characters 4-10[0m:
+388 | let triple : int * bool * string = (3, true, "some string")
+          [1;35m^^^^^^[0m
+[1;35mWarning[0m 32 [unused-value-declaration]: unused value [1mtriple[0m.
+
+[1mFile "hellocaml.ml", line 511, characters 18-19[0m:
+511 | let compose_pair (p:(('b -> 'c) * ('a -> 'b))) : 'a -> 'c =
+                        [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mp[0m.
+
+[1mFile "hellocaml.ml", line 558, characters 6-7[0m:
+558 |     | h::tl -> false        (* non-nil case -- return false *)
+            [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mh[0m.
+
+[1mFile "hellocaml.ml", line 558, characters 9-11[0m:
+558 |     | h::tl -> false        (* non-nil case -- return false *)
+               [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mtl[0m.
+
+[1mFile "hellocaml.ml", line 561, characters 4-8[0m:
+561 | let ans1: bool = is_empty []     (* evaluates to true *)
+          [1;35m^^^^[0m
+[1;35mWarning[0m 32 [unused-value-declaration]: unused value [1mans1[0m.
+
+[1mFile "hellocaml.ml", line 596, characters 12-13[0m:
+596 |     | Cons (h, tl) -> false
+                  [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mh[0m.
+
+[1mFile "hellocaml.ml", line 596, characters 15-17[0m:
+596 |     | Cons (h, tl) -> false
+                     [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mtl[0m.
+
+[1mFile "hellocaml.ml", line 685, characters 24-25[0m:
+685 | let rec list_to_mylist (l:'a list) : 'a mylist =
+                              [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml[0m.
+
+[1mFile "hellocaml.ml", line 702, characters 16-18[0m:
+702 | let rec append (l1:'a list) (l2:'a list) : 'a list =
+                      [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml1[0m.
+
+[1mFile "hellocaml.ml", line 702, characters 29-31[0m:
+702 | let rec append (l1:'a list) (l2:'a list) : 'a list =
+                                   [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml2[0m.
+
+[1mFile "hellocaml.ml", line 711, characters 13-14[0m:
+711 | let rec rev (l:'a list) : 'a list =
+                   [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml[0m.
+
+[1mFile "hellocaml.ml", line 724, characters 20-23[0m:
+724 |   let rec rev_aux l acc =
+                          [1;35m^^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1macc[0m.
+
+[1mFile "hellocaml.ml", line 745, characters 16-17[0m:
+745 | let rec insert (x:'a) (l:'a list) : 'a list =
+                      [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mx[0m.
+
+[1mFile "hellocaml.ml", line 745, characters 23-24[0m:
+745 | let rec insert (x:'a) (l:'a list) : 'a list =
+                             [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml[0m.
+
+[1mFile "hellocaml.ml", line 756, characters 15-17[0m:
+756 | let rec union (l1:'a list) (l2:'a list) : 'a list =
+                     [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml1[0m.
+
+[1mFile "hellocaml.ml", line 756, characters 28-30[0m:
+756 | let rec union (l1:'a list) (l2:'a list) : 'a list =
+                                  [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml2[0m.
+
+[1mFile "hellocaml.ml", line 847, characters 17-18[0m:
+847 | let rec vars_of (e:exp) : string list =
+                       [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+
+[1mFile "hellocaml.ml", line 866, characters 19-20[0m:
+866 | let rec string_of (e:exp) : string =
+                         [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+
+[1mFile "hellocaml.ml", line 927, characters 16-17[0m:
+927 | let rec lookup (x:string) (c:ctxt) : int64 =
+                      [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mx[0m.
+
+[1mFile "hellocaml.ml", line 927, characters 27-28[0m:
+927 | let rec lookup (x:string) (c:ctxt) : int64 =
+                                 [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mc[0m.
+
+[1mFile "hellocaml.ml", line 954, characters 19-20[0m:
+954 | let rec interpret (c:ctxt) (e:exp) : int64 =
+                         [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mc[0m.
+
+[1mFile "hellocaml.ml", line 954, characters 28-29[0m:
+954 | let rec interpret (c:ctxt) (e:exp) : int64 =
+                                  [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+
+[1mFile "hellocaml.ml", line 1000, characters 18-19[0m:
+1000 | let rec optimize (e:exp) : exp =
+                         [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+
+[1mFile "hellocaml.ml", line 1144, characters 17-18[0m:
+1144 | let rec compile (e:exp) : program =
+                        [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+)(6:rusage((13:user_cpu_time8:11858000)(15:system_cpu_time7:7820000)(6:maxrss8:19578880)(6:minflt4:1171)(6:majflt3:208)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:2)(6:nivcsw2:26))))(6:thread12:spawn_thread19:1789739660677515000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660677641000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660677729000(4:name11:thread-pool))(7:process5:start19:1789739660678016000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file41:.main.eobjs/byte/dune__exe__Hellocaml.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o43:.main.eobjs/native/dune__exe__Hellocaml.cmx2:-c5:-impl12:hellocaml.ml))(3:pid5:31148)(10:categories())(6:queued4:1000)(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(12:target_files(58:_build/default/.main.eobjs/native/dune__exe__Hellocaml.cmx56:_build/default/.main.eobjs/native/dune__exe__Hellocaml.o)))(7:process15:signal_received19:1789739660678935000(6:signal4:CHLD))(7:process6:finish(19:17897396606561240008:22825000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o38:.main.eobjs/byte/dune__exe__Assert.cmo2:-c5:-impl14:util/assert.ml))(3:pid5:31144)(10:categories())(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(53:_build/default/.main.eobjs/byte/dune__exe__Assert.cmi53:_build/default/.main.eobjs/byte/dune__exe__Assert.cmo53:_build/default/.main.eobjs/byte/dune__exe__Assert.cmt))(6:rusage((13:user_cpu_time8:12444000)(15:system_cpu_time7:8572000)(6:maxrss8:20234240)(6:minflt4:1216)(6:majflt3:203)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:5)(6:nivcsw2:22))))(6:thread12:spawn_thread19:1789739660679097000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660679169000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660679251000(4:name11:thread-pool))(7:process5:start19:1789739660679499000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file38:.main.eobjs/byte/dune__exe__Assert.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o40:.main.eobjs/native/dune__exe__Assert.cmx2:-c5:-impl14:util/assert.ml))(3:pid5:31149)(10:categories())(6:queued1:0)(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(12:target_files(55:_build/default/.main.eobjs/native/dune__exe__Assert.cmx53:_build/default/.main.eobjs/native/dune__exe__Assert.o)))(7:process5:start19:1789739660680155000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o43:.main.eobjs/byte/dune__exe__Gradedtests.cmo2:-c5:-impl14:gradedtests.ml))(3:pid5:31150)(10:categories())(6:queued1:0)(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(12:target_files(58:_build/default/.main.eobjs/byte/dune__exe__Gradedtests.cmi58:_build/default/.main.eobjs/byte/dune__exe__Gradedtests.cmo58:_build/default/.main.eobjs/byte/dune__exe__Gradedtests.cmt)))(7:process5:start19:1789739660680608000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o45:.main.eobjs/byte/dune__exe__Providedtests.cmo2:-c5:-impl16:providedtests.ml))(3:pid5:31151)(10:categories())(6:queued1:0)(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(12:target_files(60:_build/default/.main.eobjs/byte/dune__exe__Providedtests.cmi60:_build/default/.main.eobjs/byte/dune__exe__Providedtests.cmo60:_build/default/.main.eobjs/byte/dune__exe__Providedtests.cmt)))(7:process15:signal_received19:1789739660689457000(6:signal4:CHLD))(7:process6:finish(19:17897396606806080007:8875000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o45:.main.eobjs/byte/dune__exe__Providedtests.cmo2:-c5:-impl16:providedtests.ml))(3:pid5:31151)(10:categories())(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(60:_build/default/.main.eobjs/byte/dune__exe__Providedtests.cmi60:_build/default/.main.eobjs/byte/dune__exe__Providedtests.cmo60:_build/default/.main.eobjs/byte/dune__exe__Providedtests.cmt))(6:rusage((13:user_cpu_time7:4025000)(15:system_cpu_time7:3789000)(6:maxrss8:14876672)(6:minflt3:891)(6:majflt3:201)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw2:22))))(6:thread12:spawn_thread19:1789739660689667000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660689753000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660689821000(4:name11:thread-pool))(7:process5:start19:1789739660690043000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file45:.main.eobjs/byte/dune__exe__Providedtests.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o47:.main.eobjs/native/dune__exe__Providedtests.cmx2:-c5:-impl16:providedtests.ml))(3:pid5:31155)(10:categories())(6:queued4:1000)(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(12:target_files(62:_build/default/.main.eobjs/native/dune__exe__Providedtests.cmx60:_build/default/.main.eobjs/native/dune__exe__Providedtests.o)))(7:process15:signal_received19:1789739660710206000(6:signal4:CHLD))(7:process6:finish(19:17897396606556480008:54588000)(12:process_args(13:-nopervasives9:-nostdlib2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs2:-w3:-532:-w3:-492:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native9:-cmi-file30:.main.eobjs/byte/dune__exe.cmi14:-no-alias-deps7:-opaque2:-o32:.main.eobjs/native/dune__exe.cmx2:-c5:-impl28:.main.eobjs/dune__exe.ml-gen))(3:pid5:31143)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(47:_build/default/.main.eobjs/native/dune__exe.cmx45:_build/default/.main.eobjs/native/dune__exe.o))(6:rusage((13:user_cpu_time8:17144000)(15:system_cpu_time8:25737000)(6:maxrss8:22511616)(6:minflt4:5374)(6:majflt3:543)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:8)(6:nivcsw3:121))))(6:thread12:spawn_thread19:1789739660710454000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660710537000(4:name11:thread-pool))(7:process15:signal_received19:1789739660711774000(6:signal4:CHLD))(7:process6:finish(19:17897396606801550008:31645000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o43:.main.eobjs/byte/dune__exe__Gradedtests.cmo2:-c5:-impl14:gradedtests.ml))(3:pid5:31150)(10:categories())(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(58:_build/default/.main.eobjs/byte/dune__exe__Gradedtests.cmi58:_build/default/.main.eobjs/byte/dune__exe__Gradedtests.cmo58:_build/default/.main.eobjs/byte/dune__exe__Gradedtests.cmt))(6:stderr208:[1mFile "gradedtests.ml", line 56, characters 16-17[0m:
+56 |     let const3 (x:string) : int = 3 in [
+                     [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mx[0m.
+)(6:rusage((13:user_cpu_time8:11831000)(15:system_cpu_time8:14773000)(6:maxrss8:18907136)(6:minflt4:1135)(6:majflt3:203)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:0)(6:nivcsw2:64))))(6:thread12:spawn_thread19:1789739660711999000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660712083000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660712154000(4:name11:thread-pool))(7:process5:start19:1789739660712418000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file43:.main.eobjs/byte/dune__exe__Gradedtests.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o45:.main.eobjs/native/dune__exe__Gradedtests.cmx2:-c5:-impl14:gradedtests.ml))(3:pid5:31160)(10:categories())(6:queued1:0)(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(12:target_files(60:_build/default/.main.eobjs/native/dune__exe__Gradedtests.cmx58:_build/default/.main.eobjs/native/dune__exe__Gradedtests.o)))(7:process5:start19:1789739660712837000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o36:.main.eobjs/byte/dune__exe__Main.cmo2:-c5:-impl7:main.ml))(3:pid5:31161)(10:categories())(6:queued4:1000)(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(12:target_files(51:_build/default/.main.eobjs/byte/dune__exe__Main.cmi51:_build/default/.main.eobjs/byte/dune__exe__Main.cmo51:_build/default/.main.eobjs/byte/dune__exe__Main.cmt)))(7:process15:signal_received19:1789739660725220000(6:signal4:CHLD))(7:process6:finish(19:17897396607128370008:12408000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g10:-bin-annot22:-bin-annot-occurrences2:-I16:.main.eobjs/byte2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o36:.main.eobjs/byte/dune__exe__Main.cmo2:-c5:-impl7:main.ml))(3:pid5:31161)(10:categories())(4:prog43:/Users/ahennig/.opam/default/bin/ocamlc.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(51:_build/default/.main.eobjs/byte/dune__exe__Main.cmi51:_build/default/.main.eobjs/byte/dune__exe__Main.cmo51:_build/default/.main.eobjs/byte/dune__exe__Main.cmt))(6:rusage((13:user_cpu_time7:6964000)(15:system_cpu_time7:4086000)(6:maxrss8:16056320)(6:minflt3:961)(6:majflt3:203)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:1)(6:nivcsw2:13))))(6:thread12:spawn_thread19:1789739660725427000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660725517000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660725594000(4:name11:thread-pool))(7:process5:start19:1789739660725843000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file36:.main.eobjs/byte/dune__exe__Main.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o38:.main.eobjs/native/dune__exe__Main.cmx2:-c5:-impl7:main.ml))(3:pid5:31165)(10:categories())(6:queued4:1000)(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(12:target_files(53:_build/default/.main.eobjs/native/dune__exe__Main.cmx51:_build/default/.main.eobjs/native/dune__exe__Main.o)))(7:process15:signal_received19:1789739660739731000(6:signal4:CHLD))(7:process6:finish(19:17897396606900430008:49708000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file45:.main.eobjs/byte/dune__exe__Providedtests.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o47:.main.eobjs/native/dune__exe__Providedtests.cmx2:-c5:-impl16:providedtests.ml))(3:pid5:31155)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(62:_build/default/.main.eobjs/native/dune__exe__Providedtests.cmx60:_build/default/.main.eobjs/native/dune__exe__Providedtests.o))(6:rusage((13:user_cpu_time8:20773000)(15:system_cpu_time8:19387000)(6:maxrss8:22593536)(6:minflt4:5756)(6:majflt3:458)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:3)(6:nivcsw3:159))))(6:thread12:spawn_thread19:1789739660739908000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660739978000(4:name11:thread-pool))(7:process15:signal_received19:1789739660746406000(6:signal4:CHLD))(7:process6:finish(19:17897396606794990008:66927000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file38:.main.eobjs/byte/dune__exe__Assert.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o40:.main.eobjs/native/dune__exe__Assert.cmx2:-c5:-impl14:util/assert.ml))(3:pid5:31149)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(55:_build/default/.main.eobjs/native/dune__exe__Assert.cmx53:_build/default/.main.eobjs/native/dune__exe__Assert.o))(6:rusage((13:user_cpu_time8:37318000)(15:system_cpu_time8:19872000)(6:maxrss8:22855680)(6:minflt4:6001)(6:majflt3:458)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:8)(6:nivcsw3:181))))(6:thread12:spawn_thread19:1789739660746604000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660746730000(4:name11:thread-pool))(7:process15:signal_received19:1789739660748366000(6:signal4:CHLD))(7:process6:finish(19:17897396606780160008:70365000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file41:.main.eobjs/byte/dune__exe__Hellocaml.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o43:.main.eobjs/native/dune__exe__Hellocaml.cmx2:-c5:-impl12:hellocaml.ml))(3:pid5:31148)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(58:_build/default/.main.eobjs/native/dune__exe__Hellocaml.cmx56:_build/default/.main.eobjs/native/dune__exe__Hellocaml.o))(6:stderr7926:[1mFile "hellocaml.ml", line 685, characters 8-22[0m:
+685 | let rec list_to_mylist (l:'a list) : 'a mylist =
+              [1;35m^^^^^^^^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 702, characters 8-14[0m:
+702 | let rec append (l1:'a list) (l2:'a list) : 'a list =
+              [1;35m^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 711, characters 8-11[0m:
+711 | let rec rev (l:'a list) : 'a list =
+              [1;35m^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 724, characters 10-17[0m:
+724 |   let rec rev_aux l acc =
+                [1;35m^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 745, characters 8-14[0m:
+745 | let rec insert (x:'a) (l:'a list) : 'a list =
+              [1;35m^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 756, characters 8-13[0m:
+756 | let rec union (l1:'a list) (l2:'a list) : 'a list =
+              [1;35m^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 847, characters 8-15[0m:
+847 | let rec vars_of (e:exp) : string list =
+              [1;35m^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 866, characters 8-17[0m:
+866 | let rec string_of (e:exp) : string =
+              [1;35m^^^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 927, characters 8-14[0m:
+927 | let rec lookup (x:string) (c:ctxt) : int64 =
+              [1;35m^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 954, characters 8-17[0m:
+954 | let rec interpret (c:ctxt) (e:exp) : int64 =
+              [1;35m^^^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 1000, characters 8-16[0m:
+1000 | let rec optimize (e:exp) : exp =
+               [1;35m^^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 1144, characters 8-15[0m:
+1144 | let rec compile (e:exp) : program =
+               [1;35m^^^^^^^[0m
+[1;35mWarning[0m 39 [unused-rec-flag]: unused rec flag.
+
+[1mFile "hellocaml.ml", line 107, characters 4-5[0m:
+107 | let z : int =
+          [1;35m^[0m
+[1;35mWarning[0m 32 [unused-value-declaration]: unused value [1mz[0m.
+
+[1mFile "hellocaml.ml", line 117, characters 4-5[0m:
+117 | let z : int =
+          [1;35m^[0m
+[1;35mWarning[0m 32 [unused-value-declaration]: unused value [1mz[0m.
+
+[1mFile "hellocaml.ml", line 388, characters 4-10[0m:
+388 | let triple : int * bool * string = (3, true, "some string")
+          [1;35m^^^^^^[0m
+[1;35mWarning[0m 32 [unused-value-declaration]: unused value [1mtriple[0m.
+
+[1mFile "hellocaml.ml", line 511, characters 18-19[0m:
+511 | let compose_pair (p:(('b -> 'c) * ('a -> 'b))) : 'a -> 'c =
+                        [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mp[0m.
+
+[1mFile "hellocaml.ml", line 558, characters 6-7[0m:
+558 |     | h::tl -> false        (* non-nil case -- return false *)
+            [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mh[0m.
+
+[1mFile "hellocaml.ml", line 558, characters 9-11[0m:
+558 |     | h::tl -> false        (* non-nil case -- return false *)
+               [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mtl[0m.
+
+[1mFile "hellocaml.ml", line 561, characters 4-8[0m:
+561 | let ans1: bool = is_empty []     (* evaluates to true *)
+          [1;35m^^^^[0m
+[1;35mWarning[0m 32 [unused-value-declaration]: unused value [1mans1[0m.
+
+[1mFile "hellocaml.ml", line 596, characters 12-13[0m:
+596 |     | Cons (h, tl) -> false
+                  [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mh[0m.
+
+[1mFile "hellocaml.ml", line 596, characters 15-17[0m:
+596 |     | Cons (h, tl) -> false
+                     [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mtl[0m.
+
+[1mFile "hellocaml.ml", line 685, characters 24-25[0m:
+685 | let rec list_to_mylist (l:'a list) : 'a mylist =
+                              [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml[0m.
+
+[1mFile "hellocaml.ml", line 702, characters 16-18[0m:
+702 | let rec append (l1:'a list) (l2:'a list) : 'a list =
+                      [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml1[0m.
+
+[1mFile "hellocaml.ml", line 702, characters 29-31[0m:
+702 | let rec append (l1:'a list) (l2:'a list) : 'a list =
+                                   [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml2[0m.
+
+[1mFile "hellocaml.ml", line 711, characters 13-14[0m:
+711 | let rec rev (l:'a list) : 'a list =
+                   [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml[0m.
+
+[1mFile "hellocaml.ml", line 724, characters 20-23[0m:
+724 |   let rec rev_aux l acc =
+                          [1;35m^^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1macc[0m.
+
+[1mFile "hellocaml.ml", line 745, characters 16-17[0m:
+745 | let rec insert (x:'a) (l:'a list) : 'a list =
+                      [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mx[0m.
+
+[1mFile "hellocaml.ml", line 745, characters 23-24[0m:
+745 | let rec insert (x:'a) (l:'a list) : 'a list =
+                             [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml[0m.
+
+[1mFile "hellocaml.ml", line 756, characters 15-17[0m:
+756 | let rec union (l1:'a list) (l2:'a list) : 'a list =
+                     [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml1[0m.
+
+[1mFile "hellocaml.ml", line 756, characters 28-30[0m:
+756 | let rec union (l1:'a list) (l2:'a list) : 'a list =
+                                  [1;35m^^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1ml2[0m.
+
+[1mFile "hellocaml.ml", line 847, characters 17-18[0m:
+847 | let rec vars_of (e:exp) : string list =
+                       [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+
+[1mFile "hellocaml.ml", line 866, characters 19-20[0m:
+866 | let rec string_of (e:exp) : string =
+                         [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+
+[1mFile "hellocaml.ml", line 927, characters 16-17[0m:
+927 | let rec lookup (x:string) (c:ctxt) : int64 =
+                      [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mx[0m.
+
+[1mFile "hellocaml.ml", line 927, characters 27-28[0m:
+927 | let rec lookup (x:string) (c:ctxt) : int64 =
+                                 [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mc[0m.
+
+[1mFile "hellocaml.ml", line 954, characters 19-20[0m:
+954 | let rec interpret (c:ctxt) (e:exp) : int64 =
+                         [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mc[0m.
+
+[1mFile "hellocaml.ml", line 954, characters 28-29[0m:
+954 | let rec interpret (c:ctxt) (e:exp) : int64 =
+                                  [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+
+[1mFile "hellocaml.ml", line 1000, characters 18-19[0m:
+1000 | let rec optimize (e:exp) : exp =
+                         [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+
+[1mFile "hellocaml.ml", line 1144, characters 17-18[0m:
+1144 | let rec compile (e:exp) : program =
+                        [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1me[0m.
+)(6:rusage((13:user_cpu_time8:38726000)(15:system_cpu_time8:19256000)(6:maxrss8:22888448)(6:minflt4:5935)(6:majflt3:458)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:4)(6:nivcsw3:194))))(6:thread12:spawn_thread19:1789739660748744000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660748809000(4:name11:thread-pool))(7:process15:signal_received19:1789739660769691000(6:signal4:CHLD))(7:process6:finish(19:17897396607258430008:43868000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file36:.main.eobjs/byte/dune__exe__Main.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o38:.main.eobjs/native/dune__exe__Main.cmx2:-c5:-impl7:main.ml))(3:pid5:31165)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(53:_build/default/.main.eobjs/native/dune__exe__Main.cmx51:_build/default/.main.eobjs/native/dune__exe__Main.o))(6:rusage((13:user_cpu_time8:22213000)(15:system_cpu_time8:16687000)(6:maxrss8:22609920)(6:minflt4:5810)(6:majflt3:458)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:4)(6:nivcsw2:84))))(6:thread12:spawn_thread19:1789739660769864000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660769940000(4:name11:thread-pool))(7:process15:signal_received19:1789739660781954000(6:signal4:CHLD))(7:process6:finish(19:17897396607124180008:69559000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-I16:.main.eobjs/byte2:-I18:.main.eobjs/native2:-I42:/Users/ahennig/.opam/default/lib/ocaml/str2:-I43:/Users/ahennig/.opam/default/lib/ocaml/unix9:-cmi-file43:.main.eobjs/byte/dune__exe__Gradedtests.cmi14:-no-alias-deps7:-opaque5:-open9:Dune__exe2:-o45:.main.eobjs/native/dune__exe__Gradedtests.cmx2:-c5:-impl14:gradedtests.ml))(3:pid5:31160)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(60:_build/default/.main.eobjs/native/dune__exe__Gradedtests.cmx58:_build/default/.main.eobjs/native/dune__exe__Gradedtests.o))(6:stderr208:[1mFile "gradedtests.ml", line 56, characters 16-17[0m:
+56 |     let const3 (x:string) : int = 3 in [
+                     [1;35m^[0m
+[1;35mWarning[0m 27 [unused-var-strict]: unused variable [1mx[0m.
+)(6:rusage((13:user_cpu_time8:46333000)(15:system_cpu_time8:17625000)(6:maxrss8:23216128)(6:minflt4:6119)(6:majflt3:458)(7:inblock1:0)(7:oublock1:0)(5:nvcsw1:3)(6:nivcsw3:110))))(6:thread12:spawn_thread19:1789739660782136000(4:name11:thread-pool))(6:thread12:spawn_thread19:1789739660782207000(4:name11:thread-pool))(7:process5:start19:1789739660782470000(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-o8:main.exe53:/Users/ahennig/.opam/default/lib/ocaml/unix/unix.cmxa51:/Users/ahennig/.opam/default/lib/ocaml/str/str.cmxa32:.main.eobjs/native/dune__exe.cmx40:.main.eobjs/native/dune__exe__Assert.cmx43:.main.eobjs/native/dune__exe__Hellocaml.cmx45:.main.eobjs/native/dune__exe__Gradedtests.cmx47:.main.eobjs/native/dune__exe__Providedtests.cmx38:.main.eobjs/native/dune__exe__Main.cmx))(3:pid5:31175)(10:categories())(6:queued4:1000)(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(12:target_files(23:_build/default/main.exe)))(7:process15:signal_received19:1789739660888503000(6:signal4:CHLD))(7:process6:finish(19:17897396607824700009:106060000)(12:process_args(2:-w45:@1..3@5..28@30..39@43@46..47@49..57@61..62-4016:-strict-sequence15:-strict-formats12:-short-paths10:-keep-locs11:-warn-error2:-A18:-no-strict-formats2:-g2:-o8:main.exe53:/Users/ahennig/.opam/default/lib/ocaml/unix/unix.cmxa51:/Users/ahennig/.opam/default/lib/ocaml/str/str.cmxa32:.main.eobjs/native/dune__exe.cmx40:.main.eobjs/native/dune__exe__Assert.cmx43:.main.eobjs/native/dune__exe__Hellocaml.cmx45:.main.eobjs/native/dune__exe__Gradedtests.cmx47:.main.eobjs/native/dune__exe__Providedtests.cmx38:.main.eobjs/native/dune__exe__Main.cmx))(3:pid5:31175)(10:categories())(4:prog45:/Users/ahennig/.opam/default/bin/ocamlopt.opt)(3:dir14:_build/default)(4:exit1:0)(12:target_files(23:_build/default/main.exe))(6:rusage((13:user_cpu_time9:107398000)(15:system_cpu_time8:44189000)(6:maxrss8:53805056)(6:minflt5:11369)(6:majflt3:907)(7:inblock1:0)(7:oublock1:0)(5:nvcsw2:10)(6:nivcsw3:929))))(6:thread12:spawn_thread19:1789739660888690000(4:name11:thread-pool))(5:rules13:Alias builder(19:17897396605954260009:294316000)(3:dir1:.))(5:build12:build-finish(19:17897396605702700009:319527000)(6:run_id1:0)(7:outcome7:success)(6:rusage((13:user_cpu_time8:43094000)(15:system_cpu_time8:47349000)(6:maxrss8:28803072)(6:minflt4:2138)(6:majflt3:392)(7:inblock1:0)(7:oublock1:0)(5:nvcsw2:76)(6:nivcsw3:372))))(7:process15:signal_received19:1789739660889824000(6:signal4:USR1))(10:persistent2:db(19:17897396609021340006:135000)(4:path17:_build/.digest-db)(6:module9:DIGEST-DB)(9:operation4:save))(10:persistent2:db(19:17897396609022810005:94000)(4:path10:_build/.db)(6:module14:INCREMENTAL-DB)(9:operation4:save))(6:config4:exit19:1789739660902380000(2:gc((10:stack_size1:0)(10:heap_words6:409353)(14:top_heap_words6:409353)(11:minor_words8:1242966.)(11:major_words7:334471.)(14:promoted_words7:297212.)(11:compactions1:0)(17:major_collections1:3)(17:minor_collections1:7)))(2:io((10:files_read((5:count2:41)(4:time7:1291000)(5:bytes5:16606)))(13:files_written((5:count1:6)(4:time1:0)(5:bytes5:10579)))(16:directories_read((5:count1:1)(4:time1:0)))))(6:digest((5:files((5:count2:74)(4:time8:31814000)(5:bytes1:0)))(6:values((5:count1:6)(4:time5:12000)(5:bytes5:13451)))))(6:rusage((13:user_cpu_time8:43219000)(15:system_cpu_time8:47812000)(6:maxrss8:28803072)(6:minflt4:2147)(6:majflt3:392)(7:inblock1:0)(7:oublock1:0)(5:nvcsw2:76)(6:nivcsw3:379))))
