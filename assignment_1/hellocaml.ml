@@ -695,7 +695,7 @@ let rec list_to_mylist (l:'a list) : 'a mylist =
   Problem 3-2
 
   Implement the library function append, which takes two lists (of the same
-  times) and concatenates them. Do not use the library function or the built-in
+  types) and concatenates them. Do not use the library function or the built-in
   short-hand '@'.
 
   (append [1;2;3] [4;5]) should evaluate to [1;2;3;4;5]
@@ -704,11 +704,11 @@ let rec list_to_mylist (l:'a list) : 'a mylist =
   Note that OCaml provides the infix fuction @ as an alternate way of writing
   append.  So (List.append [1;2] [3]) is the same as  ([1;2] @ [3]).
 *)
-let rec append (l1:'a list) (l2:'a list) : 'a list =
-  begin match l1, l2 with
-    | xs, [] -> xs
-    | xs, y::ys -> append xs::y ys
-  end
+let append (l1:'a list) (l2:'a list) : 'a list =
+  match l1 with
+    | [] -> l2
+    | x :: xs -> x :: (append xs l2)
+
 (*
   Problem 3-3
 
@@ -716,7 +716,9 @@ let rec append (l1:'a list) (l2:'a list) : 'a list =
   you might want to call append.  Do not use the library function.
 *)
 let rec rev (l:'a list) : 'a list =
-  failwith "rev unimplemented"
+  match l with
+  | [] -> []
+  | x :: xs -> append (rev xs) [x]
 
 (*
   Problem 3-4
@@ -730,7 +732,8 @@ let rec rev (l:'a list) : 'a list =
 let rev_t (l: 'a list) : 'a list =
   let rec rev_aux l acc =
     begin match l with
-      | _ -> failwith "rev_t unimplemented"
+      | [] -> acc
+      | x :: xs -> rev_aux xs (x :: acc)
     end
   in
   rev_aux l []
@@ -750,7 +753,10 @@ let rev_t (l: 'a list) : 'a list =
   evaluates to true or false.
 *)
 let rec insert (x:'a) (l:'a list) : 'a list =
-  failwith "insert unimplemented"
+  match l with
+  | [] -> [x]
+  | y :: ys -> if x < y then x :: l else
+      if y < x then y :: insert x ys else l
 
 
 (*
@@ -761,8 +767,11 @@ let rec insert (x:'a) (l:'a list) : 'a list =
   Hint: you might want to use the insert function that you just defined.
 *)
 let rec union (l1:'a list) (l2:'a list) : 'a list =
-  failwith "union unimplemented"
-
+  match l1, l2 with
+  | [], _ -> l2
+  | _, [] -> l1
+  | x :: xs, y :: ys -> if x < y then x :: union xs l2 else
+      if y < x then y :: union l1 ys else x :: union xs ys
 
 
 
@@ -852,7 +861,12 @@ let e3 : exp = Mult(Var "y", Mult(e2, Neg e2))     (* "y * ((x+1) * -(x+1))" *)
   Hint: you probably want to use the 'union' function you wrote for Problem 3-5.
 *)
 let rec vars_of (e:exp) : string list =
-  failwith "vars_of unimplemented"
+  match e with
+  | Var x -> [x]
+  | Const _ -> []
+  | Add (e1, e2) -> union (vars_of e1) (vars_of e2)
+  | Mult (e1, e2) -> union (vars_of e1) (vars_of e2)
+  | Neg e -> vars_of e
 
 
 (*
@@ -871,7 +885,12 @@ let rec vars_of (e:exp) : string list =
 *)
 
 let rec string_of (e:exp) : string =
-  failwith "string_of unimplemented"
+  match e with
+  | Var x -> x
+  | Const n -> print_string n
+  | Add (e1, e2) -> "(" ^ string_of e1 ^ " + " ^ string_of e2 ^ ")"
+  | Mult (e1, e2) -> "(" ^ string_of e1 ^ " * " ^ string_of e2 ^ ")"
+  | Neg e -> "-" ^ string_of e
 
 (*
   How should we _interpret_ (i.e. give meaning to) an expression?
@@ -932,7 +951,9 @@ let ctxt2 : ctxt = [("x", 2L); ("y", 7L)]  (* maps "x" to 2L, "y" to 7L *)
   such value, it should raise the Not_found exception.
 *)
 let rec lookup (x:string) (c:ctxt) : int64 =
-  failwith "unimplemented"
+  match c with
+  | [] -> raise Not_found
+  | (key, value) :: rest -> if x == key then value else lookup x rest
 
 
 (*
@@ -959,8 +980,12 @@ let rec lookup (x:string) (c:ctxt) : int64 =
 *)
 
 let rec interpret (c:ctxt) (e:exp) : int64 =
-  failwith "unimplemented"
-
+  match e with
+  | Var x -> lookup x ctxt
+  | Const n -> n
+  | Add (e1, e2) -> Int64.add (interpret e1) (interpret e2)
+  | Mult (e1, e2) -> Int64.mul (interpret e1) (interpret e2)
+  | Neg e -> Int64.neg (interpret e)
 
 (*
   Problem 4-5
@@ -1005,8 +1030,34 @@ let rec interpret (c:ctxt) (e:exp) : int64 =
 *)
 
 let rec optimize (e:exp) : exp =
-  failwith "optimize unimplemented"
-
+  match e with
+  | Add (e1, e2) ->
+      let opt1 = optimize e1 in
+      let opt2 = optimize e2 in
+      (match (opt1, opt2) with
+      | (Const 0L, _) -> opt2
+      | (_, Const 0L) -> opt1
+      | (Const m, Const n) -> Const (Int64.add m n)
+      | (Neg e3, Neg e4) -> Neg (Add (e3, e4))
+      | (_, _) -> Add (opt1, opt2))
+  | Mult (e1, e2) ->
+      let opt1 = optimize e1 in
+      let opt2 = optimize e2 in
+      (match (opt1, opt2) with
+      | (Const 0L, _) -> Const 0L
+      | (_, Const 0L) -> Const 0L
+      | (Const 1L, _) -> opt2
+      | (_, Const 1L) -> opt1
+      | (Const m, Const n) -> Const (Int64.mul m n)
+      | (Neg e3, Neg e4) -> Mult (e3, e4)
+      | (_, _) -> Mult (opt1, opt2))
+  | Neg e ->
+      let opt = optimize e in
+      (match opt with
+      | Const n -> Const (Int64.neg n)
+      | Neg estar -> estar
+      | _ -> Neg opt)
+  | _ -> e
 
 (******************************************************************************)
 (*                                                                            *)
@@ -1149,8 +1200,12 @@ let ans1 = run [] p1
    - You should test the correctness of your compiler on several examples.
 *)
 let rec compile (e:exp) : program =
-  failwith "compile unimplemented"
-
+  match e with
+  | Var x -> [IPushV x]
+  | Const n -> [IPushC n]
+  | Add (e1, e2) -> append (append (compile e1) (compile e2)) [IAdd]
+  | Mult (e1, e2) -> append (append (compile e1) (compile e2)) [IMul]
+  | Neg e -> append (compile e) [INeg]
 
 
 (************)
