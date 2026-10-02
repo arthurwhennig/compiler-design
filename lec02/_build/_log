@@ -1,0 +1,18 @@
+### Starting build.
+# Target: /Users/ahennig/.opam/4.13.1/bin/ocamlc.opt -config, tags: {  }
+/Users/ahennig/.opam/4.13.1/bin/ocamlc.opt -config
+# Target: translate.ml.depends, tags: { extension:ml, file:translate.ml, ocaml, ocamldep, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamldep.opt -modules translate.ml > translate.ml.depends
+# Target: simple.ml.depends, tags: { extension:ml, file:simple.ml, ocaml, ocamldep, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamldep.opt -modules simple.ml > simple.ml.depends
+# Target: simple.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:simple.cmo, file:simple.ml, implem, ocaml, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamlc.opt -c -o simple.cmo simple.ml
+# Target: translate.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:translate.cmo, file:translate.ml, implem, ocaml, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamlc.opt -c -o translate.cmo translate.ml
+# Target: simple.cmx, tags: { compile, extension:cmx, extension:ml, file:simple.cmx, file:simple.ml, implem, native, ocaml, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamlopt.opt -c -o simple.cmx simple.ml
+# Target: translate.cmx, tags: { compile, extension:cmx, extension:ml, file:translate.cmx, file:translate.ml, implem, native, ocaml, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamlopt.opt -c -o translate.cmx translate.ml
+# Target: translate.native, tags: { dont_link_with, extension:native, file:translate.native, link, native, ocaml, program, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamlopt.opt simple.cmx translate.cmx -o translate.native
+# Compilation successful.
