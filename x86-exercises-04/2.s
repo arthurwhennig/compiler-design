@@ -1,0 +1,19 @@
+#args:         rdi, rsi, rdx, rcx, r8, r9
+#return:       rax
+#caller saved: rax, rdi, rsi, rdx, rcx, r8, r9, r10, and r11;
+#callee saved: rbx, rsp, rbp, r12, r13, r14, and r15;
+.text
+.globl swap_args_asm
+
+
+swap_args_asm: # %rdi = a %rsi = b
+    pushq %rbp
+    movq %rsp, %rbp
+    pushq %rdi
+    pushq %rsi
+    leaq -8(%rbp), %rsi
+    leaq -16(%rbp), %rdi
+    callq print
+    movq %rbp, %rsp
+    popq %rbp
+    retq
