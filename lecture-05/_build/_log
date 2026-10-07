@@ -1,0 +1,16 @@
+### Starting build.
+# Target: main3.ml.depends, tags: { extension:ml, file:main3.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep.opt -modules main3.ml > main3.ml.depends
+# Target: ir3.ml.depends, tags: { extension:ml, file:ir3.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep.opt -modules ir3.ml > ir3.ml.depends
+# Target: ir3.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ir3.cmo, file:ir3.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc.opt -c -o ir3.cmo ir3.ml
+# Target: main3.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:main3.cmo, file:main3.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc.opt -c -o main3.cmo main3.ml
+# Target: ir3.cmx, tags: { compile, extension:cmx, extension:ml, file:ir3.cmx, file:ir3.ml, implem, native, ocaml, quiet }
+/usr/bin/ocamlopt.opt -c -o ir3.cmx ir3.ml
+# Target: main3.cmx, tags: { compile, extension:cmx, extension:ml, file:main3.cmx, file:main3.ml, implem, native, ocaml, quiet }
+/usr/bin/ocamlopt.opt -c -o main3.cmx main3.ml
+# Target: main3.native, tags: { dont_link_with, extension:native, file:main3.native, link, native, ocaml, program, quiet }
+/usr/bin/ocamlopt.opt ir3.cmx main3.cmx -o main3.native
+# Compilation successful.

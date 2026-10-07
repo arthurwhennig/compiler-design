@@ -34,4 +34,4 @@ fi
 
 echo "Starting the container..."
 # use bind mount
-docker run -it -v "$PWD:/home/student" --platform linux/amd64 "$IMAGE_NAME"
+docker run --rm -it -v "$PWD:/home/student" --platform linux/amd64 "$IMAGE_NAME"

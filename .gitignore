@@ -1,1 +1,4 @@
 *~
+*.exe
+*.native
+*.opam
