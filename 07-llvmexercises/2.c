@@ -1,0 +1,9 @@
+long equal_llvm(long a, long b);
+long equal(long a, long b) { return a == b; }
+
+int main() {
+    __builtin_printf("equal(1,2)     = %ld\n", equal(1, 2));
+    __builtin_printf("equal_llvm(1,2) = %ld\n", equal_llvm(1, 2));
+    __builtin_printf("equal(3,3)     = %ld\n", equal(3, 3));
+    __builtin_printf("equal_llvm(3,3) = %ld\n", equal_llvm(3, 3));
+}
