@@ -1,0 +1,5 @@
+"Resource: /Users/ahennig/Dev/compiler-design-course/09-lexing/handlex0.ml": "\2513@\130C\1708\155\177\236\1764\169^\1705"
+"Rule: ocaml: cmx* & o* -> native (%=handlex0 )": "\2271\140\187T\165\173\005\011R\028A5/\016\156"
+"Rule: ocaml: ml -> cmo & cmi (%=handlex0 )": "\242\226\232e\027\209Q~\205\242]\0182\196\150("
+"Rule: ocaml dependencies ml (%=handlex0 )": "\004UT\151\173\191\002r\201\188CI%\135\133\227"
+"Rule: ocaml: ml & cmi -> cmx & o (%=handlex0 )": "`\016\141i\012\240\154\142c\144\141\244\230x\253\221"

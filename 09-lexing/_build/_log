@@ -1,0 +1,12 @@
+### Starting build.
+# Target: /Users/ahennig/.opam/4.13.1/bin/ocamlc.opt -config, tags: {  }
+/Users/ahennig/.opam/4.13.1/bin/ocamlc.opt -config
+# Target: handlex0.ml.depends, tags: { extension:ml, file:handlex0.ml, ocaml, ocamldep, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamldep.opt -modules handlex0.ml > handlex0.ml.depends
+# Target: handlex0.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:handlex0.cmo, file:handlex0.ml, implem, ocaml, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamlc.opt -c -o handlex0.cmo handlex0.ml
+# Target: handlex0.cmx, tags: { compile, extension:cmx, extension:ml, file:handlex0.cmx, file:handlex0.ml, implem, native, ocaml, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamlopt.opt -c -o handlex0.cmx handlex0.ml
+# Target: handlex0.native, tags: { dont_link_with, extension:native, file:handlex0.native, link, native, ocaml, program, quiet }
+/Users/ahennig/.opam/4.13.1/bin/ocamlopt.opt handlex0.cmx -o handlex0.native
+# Compilation successful.
